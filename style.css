@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #50627B;
+    color: white ;
+}
+
+body h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.game {
+    height: 260px;
+    width: 252px;
+    border-radius: 5px;
+    background-color:#1e2730;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.box {
+    height: 70px;
+    width: 70px;
+    font-size: 50px;
+    font-weight: 700;
+    /* margin: 4px; */
+    border-radius: 9px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+#reset-btn {
+    font-size: 25px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 90px;
+    cursor: pointer;
+    background-color: #1e2730;
+    color: white;
+}
+#new-btn {
+    font-size: 25px;
+    padding: 8px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #1e2730;
+    color: white;
+}
+
+#new-btn:hover {
+    background-color: #33465e;
+    color: #f6f4f4;
+}
+
+#reset-btn:hover {
+    background-color: #33465e;
+    color: #f6f4f4;
+}
+
+
+.msg-container {
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+
+#msg {
+    font-size: 35px;
+    color: #f6f4f4;
+    font-weight: 700;
+}
+
+.hide {
+    display: none;
+}
+
+.minions-gif {
+    width: 400px;
+    border-radius: 10px;
+}
